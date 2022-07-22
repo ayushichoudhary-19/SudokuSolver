@@ -3,7 +3,7 @@ This is a website which solves a Sudoku with the help of the concept of Backtrac
 
 # Live Website Demo
 GitHub Pages have been used to host the website.
-Have a look: 
+Have a look: https://ayushichoudhary-19.github.io/SudokuSolver/
 
 # License
 MIT License
