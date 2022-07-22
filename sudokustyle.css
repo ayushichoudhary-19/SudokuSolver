@@ -1,0 +1,74 @@
+
+    body{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgb(238, 255, 142);}
+    td input{
+        width: 2em;
+        height: 2em;
+        text-align: center;
+    }
+    #alert-msg{
+        display: none;
+        color: red; 
+        font-size: 20px;
+        font-weight: 500;
+    }
+    input{
+        border: 1px solid black;
+        color: black;
+        cursor: text;   
+        font-size: 1em;
+        font-weight: 900;
+        text-align: center;
+    }
+    .top-row{
+        border-top: 2px solid black;
+    }
+    .bottom-row{
+        border-bottom: 2px solid black;
+    }
+    .col-start{
+       border-left: 2px solid black;
+    }
+    
+    .col-end{
+        border-right: 2px solid black;
+    }
+    #content-div{
+        display: flex;
+        margin: 5% 25% 0% 35%;
+    }
+    button{
+        margin-left: 45.5%;
+        margin-top: 1% ;
+        width: 10%;
+        height: 10%;
+        padding: 1%;
+        background-color: rgb(16, 185, 252);
+        border: none;
+        border-radius: 2em;
+        font-size: 1em;
+        font-weight:bold;
+        color: white;
+        
+    }
+    button:hover {
+        box-shadow: 0px 2px 4px 0px rgb(5, 36, 61);
+    }
+    button:active{
+        border: 4px double rgb(5, 61, 40);
+    }
+
+    @media screen and (max-width:630px){
+        body{
+           
+            overflow:hidden ;
+        }
+       td input{ width: 2em;
+        height: 2em;
+       }
+       #content-div{
+        margin:5% 12% 0% 12%;
+       }
+
+    }
