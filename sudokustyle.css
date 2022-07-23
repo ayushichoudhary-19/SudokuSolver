@@ -64,11 +64,15 @@
            
             overflow:hidden ;
         }
-       td input{ width: 2em;
-        height: 2em;
+       td input{ width: 1.5em;
+        height: 1.5em;
        }
        #content-div{
-        margin:5% 12% 0% 12%;
+        margin: 22% 16% 7% 6%;
+       }
+       button{
+        margin-left: 36.5%;
+        width: 28%;
        }
 
     }
