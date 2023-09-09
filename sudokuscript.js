@@ -1,11 +1,15 @@
 const submit=document.getElementById('submit');
+const invalidInputMsg = document.getElementById('invalid-input-msg'); \
+
 submit.addEventListener('click',answer);
 
 function answer(){
     var A= new Array();
     for (let i=0;i<81;i++){
                     //taking the input values in a 1D array
-                    A[i]=Number(document.getElementsByTagName('input')[i].value);
+            A[i]=Number(document.getElementsByTagName('input')[i].value);
+	    const inputValue = Number(document.getElementsByTagName('input')[i].value);
+      
 
 	    if (!isNaN(inputValue) && inputValue >= 1 && inputValue <= 9) {
             A[i] = inputValue;
