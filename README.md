@@ -1,9 +1,11 @@
 # 🧩 SudokuSolver
 
 Welcome to the Sudoku Solver, a web application designed to solve Sudoku puzzles using the powerful Backtracking algorithm. This interactive tool is built with JavaScript, providing an intuitive way to solve Sudoku puzzles and gain insights into this classic number puzzle game.
+<br>
 
+### [Please give a ⭐ to this repo if you like my work :)]
 
-[Please give a ⭐ to this repo if you like my work :)]
+<br> 
 
 ## 🌐 Live Website Demo 
  🔗 https://ayushichoudhary-19.github.io/SudokuSolver/
