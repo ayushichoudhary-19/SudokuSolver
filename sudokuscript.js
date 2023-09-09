@@ -11,12 +11,13 @@ function answer(){
 	    const inputValue = Number(document.getElementsByTagName('input')[i].value);
       
 
-	    if (!isNaN(inputValue) && inputValue >= 1 && inputValue <= 9) {
-            A[i] = inputValue;
-       		 } else {
-            A[i] = 0;
-            invalidInputMsg.style.display = 'block';
-            return; }
+if (!isNaN(inputValue) && (inputValue === 0 || (inputValue >= 1 && inputValue <= 9))) {
+    A[i] = inputValue;
+} else {
+    A[i] = 0;
+    invalidInputMsg.style.display = 'block';
+    return;
+}
 	    // If all inputs are valid, hide the invalid input message
     invalidInputMsg.style.display = 'none';	    
 	    
