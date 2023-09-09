@@ -6,6 +6,16 @@ function answer(){
     for (let i=0;i<81;i++){
                     //taking the input values in a 1D array
                     A[i]=Number(document.getElementsByTagName('input')[i].value);
+
+	    if (!isNaN(inputValue) && inputValue >= 1 && inputValue <= 9) {
+            A[i] = inputValue;
+       		 } else {
+            A[i] = 0;
+            invalidInputMsg.style.display = 'block';
+            return; }
+	    // If all inputs are valid, hide the invalid input message
+    invalidInputMsg.style.display = 'none';	    
+	    
     }
     //Giving output a different color        
     for(let i=0;i<81;i++){
