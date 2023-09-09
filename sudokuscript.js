@@ -1,5 +1,5 @@
 const submit=document.getElementById('submit');
-const invalidInputMsg = document.getElementById('invalid-input-msg'); \
+const invalidInputMsg = document.getElementById('invalid-input-msg'); 
 
 submit.addEventListener('click',answer);
 
